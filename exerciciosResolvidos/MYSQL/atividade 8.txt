@@ -1,0 +1,7 @@
+select celular from cliente where celular like "__8884____";
+select nome, marca,veiculo from cliente where nome like "_a%";
+select nome, celular from cliente where veiculo like "%a";
+select nome, celular from cliente where celular like "___8___8_";
+select nome from cliente where (marca = "honda" or marca = "volkswagen") and celular like "__90%"
+select nome from cliente where ativo = 0 and veiculo like "C%" and nome like "%d_";
+select celular from cliente where ativo = 1 and celular like "4_8%"

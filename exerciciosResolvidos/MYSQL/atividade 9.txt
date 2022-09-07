@@ -1,0 +1,6 @@
+select distinct(veiculo) from cliente;
+select distinct(marca) from cliente;
+ select count(veiculo) from cliente where ativo = 1;
+ select count(veiculo) from cliente where ativo = 0;
+ select count(veiculo) from cliente where marca = "Honda" or marca = "Toyota";
+ select count(veiculo) from cliente where marca = "Hyundai" and ativo = 1

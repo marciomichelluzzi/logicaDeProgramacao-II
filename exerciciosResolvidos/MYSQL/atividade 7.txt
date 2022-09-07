@@ -1,0 +1,7 @@
+select celular from cliente where celular like "47%"
+select veiculo from cliente where nome like "Jose %"
+select veiculo from cliente where email like "%vwcharmoso%";
+select NOME from cliente where NOME like "% de %";
+select * from cliente where email like "%@vwcharmoso%" and estado = "SC";
+select * from cliente where email like "%.com.ar";
+select celular from cliente where celular like "4788%";

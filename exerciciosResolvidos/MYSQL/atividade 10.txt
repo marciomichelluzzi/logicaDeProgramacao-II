@@ -1,0 +1,12 @@
+SELECT MIN(idade) from cliente
+SELECT MAX(idade) from cliente
+SELECT avg(idade) from cliente
+select marca from cliente order by marca limit 0,3;
+select nome from cliente order by id limit 0,10
+select count(nome) from cliente where ano > 2012;
+select count(nome) from cliente where ano between 1970 and 1979;
+select count(nome) from cliente where idade between 23 and 29;
+select avg(ano) from cliente where marca = "Honda";
+select avg(ano) from cliente where ativo = 0;
+select avg(idade) from cliente where nome between "A" and "J"
+select distinct(marca) from cliente where idade > 40;

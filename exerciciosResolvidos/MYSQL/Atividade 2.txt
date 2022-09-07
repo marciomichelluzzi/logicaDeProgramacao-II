@@ -1,0 +1,25 @@
+id int, unique, auto increment, primary key; 
+codigoPessoa varchar(5), unique, not null;
+nomeCompleto varchar(50), not null;
+idade int unsigned, not null;
+dataNascimento date, not null;
+CPF char(11), unique, not null;
+CNPJ char(14), unique;
+rua varchar(255), not null;
+numero int unsigned;
+complemento varchar(255);
+CEP char(8), not null;
+cidade varchar(30), not null;
+estado char(2), not null;
+dataCadastro datetime, not null;
+ultimaAtualizacaoCadastro datetime;
+sexo char(1), not null;
+religiao varchar(20);
+cor varchar(20);
+qi int unsigned;
+tipoSanguineo char(2);
+EhDoador bool;
+PossuiPassagemPolicia bool;
+grauEscolaridade varchar(20);
+ativo bool;
+

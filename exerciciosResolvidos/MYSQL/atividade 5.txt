@@ -1,0 +1,46 @@
+SELECT
+SELECT * 
+FROM cliente
+WHERE marca =  "volkswagen"
+
+select nome from cliente where marca = "chevrolet";
+
+SELECT nome, celular
+FROM  `cliente` 
+WHERE veiculo =  "Fusca"
+
+SELECT nome,celular FROM `cliente` WHERE celular = 48908989899
+
+select veiculo from cliente where nome = "Derpina Derp"
+select celular from cliente where nome = "Otavio Otto"
+select veiculo from cliente where marca = "citroen" or marca = "renault"
+SELECT cidade FROM `cliente` WHERE estado = "pr" or estado = "sc" or estado = "rs"
+
+
+
+UPDATE
+
+update cliente set marca = "Ferrari", veiculo = "F50" where nome = "Mario Armario"
+update cliente set ativo = 0 where nome = "Hermanoteu Godá"
+update cliente set marca = "Chevrolet", veiculo = "Chevette" where nome = "Micalateia Santa"
+UPDATE cliente SET cidade =  "Laguna",
+estado =  "SC" WHERE nome =  "Molusco Um"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
